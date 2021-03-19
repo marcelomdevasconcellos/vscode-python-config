@@ -1,29 +1,22 @@
 {
-	"folders": [
-		{
-			"path": "multi"
-		}
-	],
-	"settings": {
-		"python.pythonPath": "d:\\Projetos\\venv\\Scripts\\python.exe",
-	  "python.linting.pylintPath": "d:\\Projetos\\venv\\lib\\site-packages\\pylint",
-    "python.linting.pylintEnabled": true,
-    "python.linting.pycodestyleEnabled": true,
-    "python.linting.enabled": true,
-    "editor.formatOnSave": true,
-
-    "python.linting.pylintArgs": ["--disable=all", "--enable=W0611"],
-    "[python]": {
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-      }
-    }
+    "folders": [{"path": "INSERIR-O-DIRETORIO-DO-SISTEMA"}],
+    "settings": {
+       "python.pythonPath": "d:\\Projetos\\venv\\Scripts\\python.exe",
+       "python.linting.pylintPath": "d:\\Projetos\\venv\\lib\\site-packages\\pylint",
+       "python.linting.pylintEnabled": true,
+       "python.linting.pycodestyleEnabled": true,
+       "python.linting.enabled": true,
+       "editor.formatOnSave": true,
+       "python.linting.pylintArgs": ["--disable=all", "--enable=W0611"],
+       "[python]": {
+         "editor.codeActionsOnSave": {
+         "source.organizeImports": true
+       }
+     }
   },
   "launch": {
     "version": "0.2.0",
     "configurations": [
-      
-
       {
         "name": "Python: Arquivo Atual",
         "type": "python",
